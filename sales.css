@@ -1,0 +1,22 @@
+#test{
+  font-size: 1.2em;
+}
+#buscar{
+  width: 1em;
+  height: 1em;
+}
+#inl{
+  display: inline;
+}
+.center {
+    width: 50%;
+    float: left;
+    margin-top: 5px;
+}
+.banner{
+  float: right;
+  width: 30%;
+  margin-top: 25px;
+  text-align: right;
+  line-height: 0.5em;
+}
