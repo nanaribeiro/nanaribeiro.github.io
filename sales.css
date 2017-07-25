@@ -23,4 +23,6 @@
 #googlebutt{
   width: 10%;
   height: 15%;
+  float: right;
+  line-height: 0.5em;
 }
