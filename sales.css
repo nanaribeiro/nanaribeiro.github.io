@@ -35,3 +35,9 @@
 .navbar-brand {
   padding: 0px;
 }
+.navbar-default{
+  background-color: #006b96;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
