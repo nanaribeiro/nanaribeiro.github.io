@@ -6,7 +6,8 @@
   height: 1em;
 }
 #inl{
-  display: inline;
+  background-image: url("banner.png");
+  background-size: 100%;
 }
 .center {
     width: 50%;
@@ -25,4 +26,27 @@
   height: 50%;
   float: right;
   line-height: 0.5em;
+}
+.navbar-brand >img{
+	height:100%;
+
+  width: auto;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-default{
+  background-color: #006b96;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.carousel{
+  margin-top: 20px;
+}
+.carousel .item{
+  max-height: 300px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+  margin: 0 auto; /* Align slide image horizontally center */
 }
